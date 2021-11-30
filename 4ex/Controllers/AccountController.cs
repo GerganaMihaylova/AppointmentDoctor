@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _4ex.Controllers
+namespace AppointmentDoctor.Controllers
 {
     public class AccountController:Controller
     {
@@ -14,7 +14,7 @@ namespace _4ex.Controllers
         {
             _db = db;
         }
-        public IActionResult Index()
+        public IActionResult Login()
         {
             return View();
         }

@@ -1,6 +1,6 @@
 using System;
 
-namespace _4ex.Models
+namespace AppointmentDoctor.Models
 {
     public class ErrorViewModel
     {

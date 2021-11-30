@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace _4ex.Models.VewModels
+namespace AppointmentDoctor.Models.ViewModel
 {
     public class LoginViewModel
     {
@@ -14,7 +14,7 @@ namespace _4ex.Models.VewModels
         [Required]
         [DataType(DataType.Password)]
         public string Password { get; set; }
-        [Display (Name="Remember me?")]
+        [Display(Name = "Remember me?")]
         public bool RememberMe { get; set; }
     }
 }
